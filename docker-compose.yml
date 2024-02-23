@@ -4,7 +4,7 @@ services:
     image: worker
     environment:
     - MONGO_URI=mongodb://admin:password@mongodb:27017/
-    - MONGO_DATABASE=demo2
+    - MONGO_DATABASE=demo
     - RABBITMQ_URI=amqp://user:password@rabbitmq:5672
     - RABBITMQ_QUEUE=rss_urls
     networks:
